@@ -37,7 +37,7 @@ const UserNameForm = ({ onSendName }) => {
         onChange={handleChange}
       />
       <div className="container-button-start">
-        <button type="submit"><img src="./src/images/mapa.png" alt="comenzar" /></button>
+        <button type="submit"><i className="fa-solid fa-magnifying-glass"></i></button>
       </div>
       
      </div>

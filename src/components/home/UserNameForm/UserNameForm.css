@@ -3,8 +3,7 @@ display: flex;
 flex-direction: column;
 gap: 30px; 
 }
-
-button img {
+.fa-solid {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,6 +11,7 @@ button img {
     padding: 0;
     width: 30px;
     cursor: pointer;
+    color: aliceblue;
 }
 
 form {
@@ -42,4 +42,5 @@ button {
     height: 30px;
     background: transparent;
     border: none;
+    height: 40px;
 }
