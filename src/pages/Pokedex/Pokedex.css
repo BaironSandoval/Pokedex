@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+.section-pokedex {
+    background: url(../../images/fondoPokedex.jpg) no-repeat center center fixed;
+    background-size: cover;
+    padding: 5px;
+}
+
+.pokedex__message{
+    font-family: 'Righteous', cursive;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+}
+.pokedex__message__username{
+    margin-left: 10px;
+    font-family: 'Righteous', cursive;
+    font-weight: 700;
+    font-style: normal;
+    color: #fffb00
+}

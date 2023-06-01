@@ -1,0 +1,56 @@
+.container_home {
+  background: url("../../images/fondoUserName.jpg") no-repeat center center
+    fixed;
+  background-size: cover;
+
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  height: 100vh;
+  width: 100%;
+}
+
+.logo-container img {
+  width: 500px;
+}
+
+@media (max-width: 720px) {
+  .logo-container img {
+    width: 310px;
+  }
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home__title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  text-align: center;
+
+  color: #fe1936;
+}
+.home__description {
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  color: white;
+}
+.home__form-container {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.container-giphy-embed {
+  width: 300px;
+}
+.container-giphy-embed img {
+  width: 300px;
+}
