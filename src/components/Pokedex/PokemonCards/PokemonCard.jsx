@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { getPokemonById } from "../../../services/getPoKemonById"
+import { getPokemonById } from "../../../services/getPokemonById"
 import './PokemonCard.css'
 
 const statsTarget = ['Hp', 'attack', 'defense', 'speed'];
