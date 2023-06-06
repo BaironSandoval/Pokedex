@@ -17,7 +17,6 @@ export const pokerLoader = async ({ request }) => {
         pokemons = await getAllPokemons();
     } else if (pokemonName){
         pokemons = await getAllPokemons();
-        pokemons = await getPokemonsByTypeId(pokemonTypeId);
         pokemons = pokemons.filter((pokemon) => 
             pokemon.name.toLowerCase().includes(pokemonName.toLocaleLowerCase())
         )
