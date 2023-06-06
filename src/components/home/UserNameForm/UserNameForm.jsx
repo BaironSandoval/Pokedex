@@ -1,5 +1,6 @@
 import { useRef, useState } from "react";
 import "./UserNameForm.css";
+import logoBusqueda from '../../../images/busqueda.png'
 
 const UserNameForm = ({ onSendName }) => {
   const [userNameValue, setUserNameValue] = useState("");
@@ -37,7 +38,7 @@ const UserNameForm = ({ onSendName }) => {
         onChange={handleChange}
       />
       <div className="container-button-start">
-        <button type="submit"><i className="fa-solid fa-magnifying-glass"></i></button>
+        <button type="submit"><img src={logoBusqueda} alt="busqueda" className="fa-solid fa-magnifying-glass" /></button>
       </div>
       
      </div>
